@@ -1,1 +1,11 @@
 /* your code */
+thead,tbody,th,tr,td{
+	paddding:5px;
+}
+thead{
+	background-color:blue;
+}
+tr:nth-child(even){
+	background-color:gray;
+}
+
